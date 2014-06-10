@@ -1,0 +1,50 @@
+{
+  "source": "UNKNOWN",
+  "author": "mellanox",
+  "summary": "UNKNOWN",
+  "types": [
+
+  ],
+  "name": "mellanox/mellanox_openstack",
+  "checksums": {
+    "templates/neutron_linuxbridge_modules_template.erb": "d28780e6f87d58c1814bdf71531259eb",
+    "manifests/compute/ksm.pp": "c5436a0c44a829cb25002b0886121edc",
+    "README": "f995439bb3b509f9c3e290a1fe64a283",
+    "manifests/common/clean_neutron_server.pp": "d49d654d781f31f70dec988346b6b6bd",
+    "manifests/network/network.pp": "f26190ad98b42ca07beb1f57cbb04936",
+    "manifests/network/clean.pp": "638d80f4003219b893da88b26ca0b57d",
+    "manifests/params.pp": "82aaf6facb5fc6c4ae3d24d68fe10886",
+    "templates/mlnx_conf_template.erb": "690cef9d55326a17c3d40731d019fc8f",
+    "manifests/controller/nova_scheduler.pp": "a8f98cd925fe520aac7a2bba7c00cb33",
+    "manifests/init.pp": "d41d8cd98f00b204e9800998ecf8427e",
+    "manifests/controller/external_dashboard.pp": "5c3cd904d133f6063426a1a3b131f4ce",
+    "manifests/controller/controller.pp": "1997fb6b12bda9426c2ab6605166fd8c",
+    "manifests/compute/external_dashboard.pp": "2dc0328645f57c658c0b185b9435274f",
+    "lib/facter/mellanox_neutron_facts.rb": "d5844ec0f07442e7f04bc642a372dea0",
+    "templates/mlnx_linuxbridge_template.erb": "c2b8b59e4291c42a0bea0f4a21dc4870",
+    "manifests/controller/mysql_server.pp": "6fb2afdaeb4a724e5065563dfae9ae32",
+    "manifests/controller/clean.pp": "c1bc20e7314b785d79d6076567c9a9fc",
+    "manifests/controller/neutron_server.pp": "fc58431ef8070a5f83564ad22cabdb2f",
+    "manifests/network/snat.pp": "884c0b816009d248d5ba038482a1893f",
+    "manifests/compute/compute.pp": "f98d25cc6edd5ab29a553da4edc7914c",
+    "CHANGELOG.md": "8bc80cad057de5e278d6e60aaafaa4ea",
+    "manifests/network/neutron_server_base.pp": "6b2dfede3d924cc129200d5fc40938fc",
+    "Modulefile": "2616a92d8e7a3dd0e2fcdd2565a349f3",
+    "templates/mlnx_eswitchd_template.erb": "35cfddc3f10e60a7610b7d6093d0a92a",
+    "manifests/storage/iser.pp": "6e3985e05a0c574dad05a9696637b388"
+  },
+  "project_page": "UNKNOWN",
+  "version": "1.0.8",
+  "license": "Apache License, Version 2.0",
+  "description": "mellanox module in order to configure neutron plugin for openstack WITH OVS",
+  "dependencies": [
+    {
+      "version_requirement": ">= 1.0.0",
+      "name": "puppetlabs-mysql"
+    },
+    {
+      "version_requirement": ">= 1.0.0",
+      "name": "puppetlabs-stdlib"
+    }
+  ]
+}
