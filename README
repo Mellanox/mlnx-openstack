@@ -5,10 +5,11 @@ Network: Neutron for SRIOV Support
 Storage: Cinder for iSER (iSCSI RDMA) protocol
 
 
-For more information 
+For more information
+--------------------
 Contact Mellanox Support: support@mellanox.com
 or 
-use Mellanox community: http://community.mellanox.com/community/solutions
+Visit Mellanox community portal: http://community.mellanox.com/community
 
 
 
