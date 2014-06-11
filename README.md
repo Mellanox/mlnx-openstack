@@ -1,15 +1,17 @@
-## Mellanox_openstack Puppet manifests
+## Mellanox OpenStack Puppet manifests
 
-Deploying MLNX OpenStack plugins (Network and Storage)
-Network: Neutron for SRIOV Support
-Storage: Cinder for iSER (iSCSI RDMA) protocol
+* Deploying MLNX OpenStack plugins (Network and Storage)
+  * <strong>Network:</strong> Neutron for SRIOV Support
+  * <strong>Storage:</strong> Cinder for iSER (iSCSI RDMA) protocol
 
 
 #### For more information
 --------------------
-Contact Mellanox Support: support@mellanox.com
-or 
-Visit Mellanox community portal: http://community.mellanox.com/community
+* Contact Mellanox Support: support@mellanox.com
+
+OR
+
+* Visit Mellanox community portal: http://community.mellanox.com/community
 
 
 
